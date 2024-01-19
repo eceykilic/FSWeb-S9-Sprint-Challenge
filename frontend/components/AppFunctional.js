@@ -88,7 +88,7 @@ export default function AppFunctional(props) {
       break;
 
       case "down":
-        if(index < 5) 
+        if(index > 5) 
       {
         setMessage("Aşağıya gidemezsiniz")
       } else {
